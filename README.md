@@ -2,7 +2,7 @@
 Compiler sample
 
 請先git以下這兩個自動安裝與執行腳本擋(*.sh)：  
-git clone https://github.com/Kennnijy/1142Compiler_FinalPresentation-Compiler-sample/blob/main/setup_compiler.sh 
+git clone https://github.com/Kennnijy/1142Compiler_FinalPresentation-Compiler-sample/blob/main/setup_compiler.sh   
 git clone https://github.com/Kennnijy/1142Compiler_FinalPresentation-Compiler-sample/blob/main/run_pipeline.sh
 
 
