@@ -2,7 +2,7 @@
 # 修正：#!/bin/bash 必須放在檔案的最頂端第一行
 
 # 切換到專案資料夾
-cd ~/final/Compiler-sample/
+cd ~/final/1142Compiler_FinalPresentation-Compiler-sample/
 
 # 只限定測試固定檔名 sample5
 FILE_NAME="sample5"
