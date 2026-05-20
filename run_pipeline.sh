@@ -35,7 +35,7 @@ clang -S -emit-llvm "${FILE_NAME}.c"
 
 # 5. 進行 LLVM 最佳化 (修正：配合 Ubuntu 18.04 的 LLVM 6.0 舊版 opt 語法)
 echo "[步驟 5/8] 正在使用 opt 進行 mem2reg 最佳化..."
-opt -S -globalopt -loop-simplify -mem2reg "${FILE_NAME}.ll" -o "${FILE_NAME}_opt.ll"
+opt -S -passes='globalopt,loop-simplify,mem2reg' "${FILE_NAME}.ll"
 
 # 6. 將最佳化後的中間碼轉為組合語言 (.s)
 echo "[步驟 6/8] 正在使用 llc 將中間碼轉為 x86 組合語言..."
