@@ -2,11 +2,8 @@ cd final/Compiler-sample/
 
 #!/bin/bash
 
-# 互動功能：讓你在執行時輸入要測試的檔名（預設值為 sample8）
-read -p "請輸入要編譯的 C 檔名 (不需要加 .c，直接輸入例如 sample8，直接按 Enter 預設為 sample8): " FILE_NAME
-if [ -z "$FILE_NAME" ]; then
-    FILE_NAME="sample8"
-fi
+# 只限定測試固定檔名 sample5
+FILE_NAME="sample5"
 
 echo "=========================================="
 echo "🚀 開始執行編譯鏈流水線，目前目標檔案: ${FILE_NAME}.c"
