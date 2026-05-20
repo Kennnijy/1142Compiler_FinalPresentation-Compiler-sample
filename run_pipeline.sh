@@ -39,7 +39,7 @@ opt -S -passes='globalopt,loop-simplify,mem2reg' "${FILE_NAME}.ll"
 
 # 6. 將最佳化後的中間碼轉為組合語言 (.s)
 echo "[步驟 6/8] 正在使用 llc 將中間碼轉為 x86 組合語言..."
-llc "${FILE_NAME}_opt.ll" -o "${FILE_NAME}.s"
+llc "${FILE_NAME}.ll" -o "${FILE_NAME}.s"
 
 # 7. 將組合語言組譯成目的檔 (.o)
 echo "[步驟 7/8] 正在使用 GNU As組譯器生成 ${FILE_NAME}.o..."
