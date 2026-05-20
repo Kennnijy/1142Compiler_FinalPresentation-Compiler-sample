@@ -9,7 +9,7 @@ wget https://raw.githubusercontent.com/Kennnijy/1142Compiler_FinalPresentation-C
 chmod +x setup_compiler.sh  
 chmod +x run_pipeline.sh
 
-執行：  
+執行(兩個檔案需要分開執行)：  
 ./setup_compiler.sh  
 ./run_pipeline.sh
 
