@@ -17,7 +17,7 @@ mkdir -p final && cd final
 # 4. Clone 報告書專案
 echo "[步驟 4/5] 正在從 GitHub 下載編譯器專案..."
 git clone https://github.com/Kennnijy/1142Compiler_FinalPresentation-Compiler-sample.git
-cd Compiler-sample/
+cd final/1142Compiler_FinalPresentation-Compiler-sample
 
 # 5. 編譯 Lex 與 Yacc 產生自製編譯器
 echo "[步驟 5/5] 正在生成自製編譯器 (Compile)..."
