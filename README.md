@@ -5,7 +5,7 @@ Compiler sample
 wget https://raw.githubusercontent.com/Kennnijy/1142Compiler_FinalPresentation-Compiler-sample/refs/heads/main/setup_compiler.sh  
 wget https://raw.githubusercontent.com/Kennnijy/1142Compiler_FinalPresentation-Compiler-sample/refs/heads/main/run_pipeline.sh
 
-權限：
+權限：  
 chmod +x setup_compiler.sh  
 chmod +x run_pipeline.sh
 
