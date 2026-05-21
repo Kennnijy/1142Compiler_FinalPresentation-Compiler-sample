@@ -1,11 +1,15 @@
 # Compiler-sample
 Compiler sample
 
-請先git以下這兩個自動安裝與執行腳本擋(*.sh)：  
+請在Ubuntu環境下執行
+
+先打開Ubuntu terminal(切換到想要的資料夾裡面)
+
+接著裝以下這兩個自動安裝與執行腳本擋(*.sh)：  
 wget https://raw.githubusercontent.com/Kennnijy/1142Compiler_FinalPresentation-Compiler-sample/refs/heads/main/setup_compiler.sh  
 wget https://raw.githubusercontent.com/Kennnijy/1142Compiler_FinalPresentation-Compiler-sample/refs/heads/main/run_pipeline.sh
 
-權限：  
+調整權限：  
 chmod +x setup_compiler.sh  
 chmod +x run_pipeline.sh
 
